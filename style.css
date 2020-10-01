@@ -1,5 +1,13 @@
+pre {
+    border-left: 0.3rem #0057a2 solid;
+}
 .resultCode {
     font-size: 2rem;
+}
+
+.button {
+    background-color: #0057a2;
+    border: none;
 }
 
 .button-large {
@@ -9,10 +17,18 @@
     padding: 0 2rem;
 }
 
+.videoBox {
+    width: 100%;
+}
+
+.videoStyle {
+    border: 0.1rem solid gray
+}
+
 @media only screen and (max-width: 600px) {
     .videoStyle {
         height: 200px;
-        width: 266px;
+        width: 100%;
     }
 }
 
