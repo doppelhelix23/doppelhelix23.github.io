@@ -6,6 +6,15 @@ h1, h2, h3, h4 {
     margin-bottom: 1rem;
 }
 
+.header {
+    height: 62px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1.25em;
+}
+.img_header {
+    max-height: 2.5rem;
+}
 .resultCode {
     font-size: 2rem;
 }
@@ -35,6 +44,7 @@ pre {
     line-height: 2rem;
     margin-bottom: 2rem;
     margin-top: 0rem;
+    white-space:pre-wrap;
 }
 
 .row {
@@ -48,7 +58,7 @@ pre {
 
 @media only screen and (max-width: 600px) {
     .videoStyle {
-        height: 200px;
+        height: 160px;
         width: 100%;
     }
 }
