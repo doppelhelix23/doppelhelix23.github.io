@@ -46,6 +46,9 @@ pre {
     width: 100%;
     max-width: 480px;
     min-height: 4rem;
+    border-left: 0.7rem #0057a2 solid;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
 }
 .resultCode {
     font-size: 2rem;
