@@ -28,8 +28,13 @@ pre {
     line-height: 8rem;
     padding: 0 2rem;
 }
+.centered_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .videoBox {
-    width: 100%;
 }
 .videoStyle {
     border: 0.1rem solid gray

@@ -24,41 +24,43 @@
   <main class="wrapper" style="padding-top:1em">
 
     <section class="container" id="demo-content">
-      <h3 class="title">DataMatrix Scanner</h3>
-      <label>Camera control:</label>
-      <div>
-        <a class="button" id="startButton">Start</a>
-        <a class="button" id="resetButton">Reset</a>
-      </div>
+      <div class="centered_box">
+        <h3 class="title">DataMatrix Scanner</h3>
+        <label>Camera control:</label>
+        <div>
+          <a class="button" id="startButton">Start</a>
+          <a class="button" id="resetButton">Reset</a>
+        </div>
+        
+        <div id="sourceSelectPanel" style="display:none">
+          <label for="sourceSelect">Change video source:</label>
+          <select id="sourceSelect" style="max-width:400px">
+          </select>
+        </div>
 
-      <div class="videoBox">
-        <video id="video" class="videoStyle"></video>
-      </div>
-
-      <div id="sourceSelectPanel" style="display:none">
-        <label for="sourceSelect">Change video source:</label>
-        <select id="sourceSelect" style="max-width:400px">
-        </select>
-      </div>
-
-      <label>Kartennummer:</label>
-      <div class="show_result">
-        <div id="result" class="resultCode"></div>
-      </div>
-      <!--
-      <pre><code id="result" class="resultCode"></code></pre>
-      -->
-
-      <div class="row">
-
+        <div class="videoBox">
+          <video id="video" class="videoStyle"></video>
+        </div>
+  
+        <label>Kartennummer:</label>
+        <div class="show_result">
+          <div id="result" class="resultCode"></div>
+        </div>
         <!--
-        <div><a class="column button button-large" id="submitButton">Submit</a></div>
+        <pre><code id="result" class="resultCode"></code></pre>
         -->
+  
+        <div class="row">
+  
+          <!--
+          <div><a class="column button button-large" id="submitButton">Submit</a></div>
+          -->
+        </div>
+        <!--
+        <p>See the <a href="https://github.com/zxing-js/library/tree/master/docs/examples/multi-camera/">source code</a>
+          for this example.</p> -->
       </div>
-      <!--
-      <p>See the <a href="https://github.com/zxing-js/library/tree/master/docs/examples/multi-camera/">source code</a>
-        for this example.</p>
-      -->
+  
     </section>
 
     <footer class="footer">
